@@ -442,7 +442,26 @@ work only with <span>Rise</span>.<i class="fa fa-quote-right right fa-2x"></i></
     </section>
     <!-- Google Map
 	============================================= -->
-    <iframe src="http://www.dr2ooo.com/tools/maps/maps.php?zoom=15&width=500&height=266&ll=25.127046,-238.536505&ctrl=true&cp=true&" width="500" height="266"></iframe>
+    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+    <div style='overflow:hidden;height:440px;width:700px;'>
+        <div id='gmap_canvas' style='height:440px;width:700px;'></div>
+        <div>
+            <small>
+                <a href="http://www.embedgooglemaps.com/en/">Generate your map hereand easy!                                    Give your cudirections                                  Get found</a>
+            </small>
+        </div>
+        <div>
+            <small>
+                <a href="https://www.amazon.com/Extra-Large-Folding-Kennel-PlaB00M3NBJ8E/ref=sr_1_5?s=pet-supplies&ie=UTF8&qid=147sr=1-5keywords=pet+cage">Pet Wire Cage</a>
+            </small>
+        </div>
+        <style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+    </div>
+    <script type='text/javascript'>function init_map(){var myOptions = {zoom:10,cengoogle.maps.LatLng(25.123976179706847,121.46675476616211),mapTypeId: googMapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_, myOptions);marker = new google.maps.Marker({map: map,position: new googLatLng(25.123976179706847,121.46675476616211)});infowindow = new googInfoWindow({content:'
+        <strong>Title</strong>
+        <br>No.48-1, Ziqiang Rd., Tamsui Dist.
+            <br>'});google.maps.event.addListener(marker, 'click', function(){infopen(map,marker);});infowindow.open(map,marker);}google.mapaddDomListener(window, 'load', init_map);
+            </script>
     <!-- Footer
 	============================================= -->
     <footer>
